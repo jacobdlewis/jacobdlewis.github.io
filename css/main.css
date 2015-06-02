@@ -1,0 +1,122 @@
+body {
+  background-color: seashell; }
+
+#about_me {
+  margin-top: 130px; }
+
+#bit_blaster, #contact {
+  text-align: right; }
+
+.jumbotron {
+  background-color: tomato; }
+
+.separator {
+  margin: 10px 0 10px 0; }
+  .separator hr {
+    border-top: 1px solid lightgrey; }
+
+.section-header {
+  margin: 0 auto 0 auto; }
+
+.main-section {
+  margin: 10px auto 10px auto; }
+
+.top-header {
+  background-color: #333333;
+  margin-top: 0;
+  padding-top: 30px;
+  box-shadow: 0 1px 1px lightgrey; }
+  .top-header h1 {
+    color: white; }
+
+.container {
+  background-color: white;
+  box-shadow: 0 0 1px grey; }
+
+.breadcrumb {
+  margin-top: 30px;
+  margin-bottom: 10px; }
+  .breadcrumb li > a {
+    color: black; }
+  .breadcrumb li > a:hover {
+    color: tomato;
+    text-decoration: none; }
+
+.subheader {
+  color: tomato;
+  font-size: 28px; }
+
+.paragraph {
+  font-size: 22px;
+  margin-top: 40px;
+  font-weight: default; }
+  .paragraph a {
+    color: tomato; }
+
+.profile_image {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px tomato; }
+
+.bit-blaster {
+  size: 300px;
+  width: 300px;
+  border-radius: 5px; }
+
+.skills ul {
+  display: block;
+  list-style-type: none; }
+.skills li {
+  font-size: 24px;
+  text-align: center;
+  color: white; }
+
+.contact {
+  margin-bottom: -10px; }
+  .contact ul {
+    list-style-type: none; }
+  .contact li {
+    display: inline; }
+  .contact i {
+    height: 150px;
+    width: 150px;
+    color: tomato; }
+
+.page-footer a {
+  color: tomato;
+  text-decoration: none; }
+.page-footer img {
+  max-height: 40px;
+  max-width: 40px; }
+
+/*
+***************************
+***************************
+***    small screen     ***
+***************************
+***************************
+*/
+@media (max-width: 600px) {
+  .top-header {
+    padding-top: 0px; }
+  #about_me, #skills, #contact, #bit_blaster {
+    text-align: center; }
+  .container {
+    margin: 0; }
+  .profile_image {
+    max-height: 200px;
+    max-width: 200px;
+    margin-left: 10%; }
+  .bit-blaster {
+    max-height: 200px;
+    max-width: 200px;
+    margin-right: 7%; }
+  .skills ul {
+    padding-left: 10%; }
+  .skills li {
+    font-size: 16px; }
+  .contact ul {
+    padding: 0; }
+  .breadcrumb {
+    display: none; } }
