@@ -19,6 +19,8 @@
         <ol class="pull-right breadcrumb">
           <li><a href="#about_me" class="active">About Me</a></li>
           <li><a href="#bit_blaster">Bit Blaster</a></li>
+          <li><a href="#space-race">Space Race</a></li>
+          <li><a href="#time-logger">Time Logger</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#contact">Contact</a></li>
         </ol>
@@ -31,15 +33,12 @@
         </div>
       </div>
       <div class="row main-section">
-        <col-xs-12 class="about-me">
+        <div class="col-xs-12 about-me">
           <div class="col-md-6"><img src="assets/profile_photo.png" class="profile_image"></div>
           <div class="col-md-6">
-            <p class="paragraph">
-               
-              I'm a web developer at <a href="http://nashvillesoftwareschool.com/" target="_blank">Nashville Software School</a>, a bootcamp-style vocational school focused on training junior developers. I'm a recent transplant to Nashville, coming by way of Madison, WI and Birmingham, AL. I enjoy learning new technologies and writing clean, test-driven code. When I'm not working on development projects, you can find me on the disc golf course, taking walks with my dog Lucy, or playing a board game with friends.
-            </p>
+            <p class="paragraph">I'm a web developer at <a href="http://nashvillesoftwareschool.com/" target="_blank">Nashville Software School </a>, a bootcamp-style vocational school focused on training junior developers. I'm a recent transplant to Nashville, coming by way of Madison, WI and Birmingham, AL. I enjoy learning new technologies and writing clean, test-driven code. When I'm not working on development projects, you can find me on the disc golf course, taking walks with my dog Lucy, or playing a board game with friends.</p>
           </div>
-        </col-xs-12>
+        </div>
       </div>
       <div class="row">
         <div class="col-xs-12 separator">
@@ -52,16 +51,55 @@
         </div>
       </div>
       <div class="row main-section">
+        <div class="col-md-6 col-xs-12">
+          <p class="paragraph">Bit Blaster is an arcade-style space shooter built with the <a href="http://phaser.io/" target="_blank">Phaser.js </a>game engine. I completed Bit Blaster for my capstone project featuring front-end technologies at Nashville Software School. Game assets were created with GIMP. High scores are recorded using Firebase, which is also used to deploy the project. <a href="https://bitblaster.firebaseapp.com/" target="_blank">Play the game here</a>. If you can top 50,000 points, you'll get to take on the boss.</p>
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <div><a href="https://bitblaster.firebaseapp.com/" target="_blank"><img src="assets/bit_blaster.png" class="bit-blaster pull-right"></a></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 separator">
+          <hr>
+        </div>
+      </div>
+      <div class="row section-header">
         <div class="col-xs-12">
-          <div class="col-md-6">
-            <p class="paragraph">
-               
-              Bit Blaster is an arcade-style space shooter built with the <a href="http://phaser.io/" target="_blank">Phaser.js </a>game engine. I completed Bit Blaster for my capstone project featuring front-end technologies at Nashville Software School. Game assets were created with GIMP. High scores are recorded using Firebase, which is also used to deploy the project. <a href="https://bitblaster.firebaseapp.com/" target="_blank">Play the game here. </a>If you can top 50,000 points, you'll get to take on the boss.
-            </p>
-          </div>
-          <div class="col-md-6">
-            <div><a href="https://bitblaster.firebaseapp.com/" target="_blank"><img src="assets/bit_blaster.png" class="bit-blaster pull-right"></a></div>
-          </div>
+          <h2 id="space-race">Space Race</h2>
+        </div>
+      </div>
+      <div class="row main-section">
+        <div class="col-md-6 col-xs-12"><a href="http://space-race.herokuapp.com/" target="_blank"><img src="assets/space_race.png" class="space-race pull-left"></a></div>
+        <div class="col-md-6 col-xs-12">
+          <p class="paragraph">
+            During Hack Tennessee, a 48-hour hack-a-thon, our team of designers and full-stack developers created Space Race,
+            a cooperative multiplayer game in which two teams of two race through Earth’s atmosphere. During every game, each 
+            team’s engineer builds platforms for their teammate.  Each team’s astronaut then traverses those platforms in an 
+            attempt to outpace their opponent without falling. The game utilizes a combination of Node, Express, and Eureca.io 
+            to manage real-time interaction. Play the game <a href="http://space-race.herokuapp.com/">here</a>.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 separator">
+          <hr>
+        </div>
+      </div>
+      <div class="row section-header">
+        <div class="col-xs-12">
+          <h2 id="time-logger">Time Logger</h2>
+        </div>
+      </div>
+      <div class="row main-section">
+        <div class="col-md-6 col-xs-12">
+          <p class="paragraph">
+            I created Time Logger to help my father’s small business save time and cut down on time-logging errors. The app 
+            replaces pen-and-paper time logging with a cloud-based solution that works across an array of devices. Graph-based 
+            reports help employees and managers make better business decisions about how their time is spent. Try the app <a href="http://sfctimelogger.herokuapp.com/">here</a>.
+          </p>
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <div><a href="http://sfctimelogger.herokuapp.com/" target="_blank"><img src="assets/time_logger.png" class="time-logger pull-right"></a></div>
         </div>
       </div>
       <div class="row">
@@ -136,7 +174,7 @@
       <div class="row">
         <div class="col xs-12 separator page-footer">
           <hr>
-          <h4 class="text-center">Written with <a href="http://getbootstrap.com/" target="blank">Bootstrap. </a>Powered by my Raspberry Pi<img src="../assets/rasbpi_icon.ico"></h4>
+          <h4 class="text-center">Written with<a href="http://getbootstrap.com/" target="blank">Bootstrap.</a>Powered by my Raspberry Pi<img src="../assets/rasbpi_icon.ico"></h4>
         </div>
       </div>
     </div>
